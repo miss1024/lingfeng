@@ -24,5 +24,5 @@ urlpatterns = (
     # 获取主页
     url(r'(/)?$', views.index),
     #实现对话
-    url(r'/miss_summer/message',views.text)
+    url(r'/miss_summer/message',views.get_message)
 )
